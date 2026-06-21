@@ -1,0 +1,28 @@
+customer_id,reference_agent_response
+S001,"- Customer ID: S001
+- Risk Segment: Support-Fatigued
+- Next Best Action: ESCALATE
+- Action Rationale: Priya Sharma has shown key disengagement signals, including a recency of 72 days, app usage of only 1 session per month, and an email open rate of 9%. Her NPS score is 2/10, and she has submitted 5 support tickets in the last 30 days.
+- Treatment Steps:
+    1. Assign to CRM specialist for a personal call within 24 hours.
+    2. Credit 500 goodwill points to the account immediately as a service recovery gesture, framed as a thank-you for the customer's patience.
+    3. Monitor NPS score and support ticket count at day 7 and day 14 - if NPS has not improved or a new ticket is raised, re-escalate to senior CRM team.
+- Engagement Policy: No promotional content until the service issue is confirmed resolved"
+S002,"- Customer ID: S002
+- Risk Segment: Disengaged
+- Next Best Action: NURTURE
+- Action Rationale: Rahul Mehta has not made a purchase in 85 days and has low app engagement with only 1 session per month. His email open rate is 12%, indicating a need for personalised outreach.
+- Treatment Steps:
+    1. Trigger a personalised re-engagement email referencing the customer's top product category, including a points reminder and category highlight.
+    2. Send a push notification or in-app message on day 7 if no email engagement, featuring new arrivals in their preferred category.
+    3. Evaluate engagement signals at day 21 - if no response, move to passive monitoring.
+- Engagement Policy: Do not send generic campaigns - personalise outreach to the customer's top product category"
+S003,"- Customer ID: S003
+- Risk Segment: Healthy
+- Next Best Action: HOLD
+- Action Rationale: Neha Kapoor has shown strong engagement signals with a recency of 12 days, 20 app sessions per month, and an email open rate of 55%. Her NPS score is 9/10, and she has raised 0 support tickets in the last 30 days.
+- Treatment Steps:
+    1. No active retention intervention required - customer is engaged and satisfied.
+    2. Consider routing to referral or advocacy programme if NPS >= 9 and the customer has not yet participated.
+    3. Monitor passively - flag for retention review only if recency exceeds 30 days or NPS drops below 7.
+- Engagement Policy: No retention spend - route to referral or advocacy programme instead"

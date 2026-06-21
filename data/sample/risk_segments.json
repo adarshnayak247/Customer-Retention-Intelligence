@@ -1,0 +1,53 @@
+[
+  {
+    "id": "RS-001",
+    "priority": 1,
+    "segment": "Support-Fatigued",
+    "definition": "Customer has raised multiple support tickets recently and NPS has dropped sharply, indicating a poor service experience is actively driving churn intent.",
+    "decision": "ESCALATE",
+    "required_signals": [
+      "support_tickets >= 3",
+      "nps_score <= 4",
+      "email_open_rate < 0.20"
+    ],
+    "engagement_policy": "No promotional content until the service issue is confirmed resolved"
+  },
+  {
+    "id": "RS-002",
+    "priority": 2,
+    "segment": "Competitor-Switched",
+    "definition": "Customer has been completely inactive for an extended period with zero app engagement, suggesting they have silently moved to a competitor without raising any friction.",
+    "decision": "NURTURE",
+    "required_signals": [
+      "recency_days > 90",
+      "app_sessions_mo == 0",
+      "email_open_rate < 0.10"
+    ],
+    "engagement_policy": "Win-back window closes after 180 days - do not invest in customers beyond this threshold"
+  },
+  {
+    "id": "RS-003",
+    "priority": 3,
+    "segment": "Disengaged",
+    "definition": "Customer has progressively reduced engagement across all channels - app sessions, email opens, and purchase recency have all declined without a single dominant trigger signal.",
+    "decision": "NURTURE",
+    "required_signals": [
+      "recency_days > 60",
+      "app_sessions_mo < 2",
+      "email_open_rate < 0.15"
+    ],
+    "engagement_policy": "Do not send generic campaigns - personalise outreach to the customer's top product category"
+  },
+  {
+    "id": "RS-004",
+    "priority": 4,
+    "segment": "Healthy",
+    "definition": "Customer is actively engaged, purchasing recently, and reporting high satisfaction. No retention intervention required.",
+    "decision": "HOLD",
+    "required_signals": [
+      "recency_days <= 30",
+      "nps_score >= 7"
+    ],
+    "engagement_policy": "No retention spend - route to referral or advocacy programme instead"
+  }
+]

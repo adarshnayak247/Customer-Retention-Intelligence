@@ -1,0 +1,32 @@
+[
+  {
+    "customer_id": "S001",
+    "name": "Priya Sharma",
+    "clv_tier": "Gold",
+    "recency_days": 72,
+    "app_sessions_mo": 1,
+    "email_open_rate": 0.09,
+    "nps_score": 2,
+    "support_tickets": 5
+  },
+  {
+    "customer_id": "S002",
+    "name": "Rahul Mehta",
+    "clv_tier": "Silver",
+    "recency_days": 85,
+    "app_sessions_mo": 1,
+    "email_open_rate": 0.12,
+    "nps_score": 5,
+    "support_tickets": 0
+  },
+  {
+    "customer_id": "S003",
+    "name": "Neha Kapoor",
+    "clv_tier": "Platinum",
+    "recency_days": 12,
+    "app_sessions_mo": 20,
+    "email_open_rate": 0.55,
+    "nps_score": 9,
+    "support_tickets": 0
+  }
+]
